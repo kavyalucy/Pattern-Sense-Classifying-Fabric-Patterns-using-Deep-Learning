@@ -1,0 +1,967 @@
+{
+  "SystemInfo": {
+    "DellDiagnostics": "Dell Diagnostics Version 1.3.1.3273",
+    "ProductName": "Vostro 3520",
+    "BiosVersion": "1.30.0",
+    "SerialNumber": "JT6JM24",
+    "HostName": "DESKTOP-28TM2BC",
+    "OSFriendlyName": "Microsoft Windows 11 Home Single Language",
+    "OSVersion": "10.0.22631.0"
+  },
+  "AdditionalInfo": {
+    "testSetResults": [
+      {
+        "testSetName": "TestSet",
+        "testResults": [
+          {
+            "testName": "Battery - functional NonInteractive",
+            "iteration": 1,
+            "deviceResults": [
+              {
+                "deviceName": "Battery_LeftBayBattery",
+                "subtestUpdates": [
+                  {
+                    "OverallProgress": 50,
+                    "StatusCode": "D0301",
+                    "TestName": "Percent Charge",
+                    "TestKey": "idiag.battery.test.PercentCharge",
+                    "Progress": 100,
+                    "StartTime": "2025-05-22T04:59:12.6811798Z",
+                    "Duration": {
+                      "Seconds": 0,
+                      "Nanos": 19672400
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Battery_LeftBayBattery",
+                    "REKey": "Battery_PercentCharge_D0301",
+                    "Tips": []
+                  },
+                  {
+                    "OverallProgress": 100,
+                    "StatusCode": "D0302",
+                    "TestName": "Percent Health",
+                    "TestKey": "idiag.battery.test.PercentHealth",
+                    "Progress": 100,
+                    "StartTime": "2025-05-22T04:59:12.7022605Z",
+                    "Duration": {
+                      "Seconds": 0,
+                      "Nanos": 51205100
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Battery_LeftBayBattery",
+                    "REKey": "Battery_PercentHealth_D0302",
+                    "Tips": [],
+                    "IsDiagnosticCompleted": true
+                  }
+                ],
+                "overallResults": [
+                  {
+                    "Iteration": 1,
+                    "Result": true,
+                    "ResultString": "Passed",
+                    "TotalIterations": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "testName": "Cables - functional NonInteractive",
+            "iteration": 1,
+            "deviceResults": [
+              {
+                "deviceName": "Cables_0",
+                "subtestUpdates": [
+                  {
+                    "OverallProgress": 100,
+                    "StatusCode": "D0901",
+                    "TestName": "Cable - Functional Tests",
+                    "TestKey": "idiag.cable.test",
+                    "Progress": 100,
+                    "ErrorCodeDescription": "Cable - testing success",
+                    "StartTime": "2025-05-22T04:59:14.7564609Z",
+                    "Duration": {
+                      "Seconds": 0,
+                      "Nanos": 831316700
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Cables_0",
+                    "REKey": "Cables_D0901",
+                    "Tips": [],
+                    "IsDiagnosticCompleted": true
+                  }
+                ],
+                "overallResults": [
+                  {
+                    "Iteration": 1,
+                    "Result": true,
+                    "ResultString": "Passed",
+                    "TotalIterations": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "testName": "PCI Bus - functional NonInteractive",
+            "iteration": 1,
+            "deviceResults": [
+              {
+                "deviceName": "Pcie_0",
+                "subtestUpdates": [
+                  {
+                    "OverallProgress": 100,
+                    "StatusCode": "D0701",
+                    "TestName": "PCI Bus - Functional Tests",
+                    "TestKey": "idiag.pci.test",
+                    "Progress": 100,
+                    "ErrorCodeDescription": "Pcie - testing success",
+                    "StartTime": "2025-05-22T04:59:16.39732Z",
+                    "Duration": {
+                      "Seconds": 0,
+                      "Nanos": 662775900
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Pcie_0",
+                    "REKey": "PCIE_D0701",
+                    "Tips": [],
+                    "IsDiagnosticCompleted": true
+                  }
+                ],
+                "overallResults": [
+                  {
+                    "Iteration": 1,
+                    "Result": true,
+                    "ResultString": "Passed",
+                    "TotalIterations": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "testName": "PciStatus - functional NonInteractive",
+            "iteration": 1,
+            "deviceResults": [
+              {
+                "deviceName": "PCIExpress_0",
+                "subtestUpdates": [
+                  {
+                    "OverallProgress": 100,
+                    "StatusCode": "D0702",
+                    "TestName": "PCI Status Tests",
+                    "TestKey": "idiag.pci.status.test",
+                    "Progress": 100,
+                    "ErrorCodeDescription": "",
+                    "StartTime": "2025-05-22T04:59:15.6879994Z",
+                    "Duration": {
+                      "Seconds": 0,
+                      "Nanos": 40856600
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "PCIExpress_0",
+                    "REKey": "PCIExpress_D0702",
+                    "Tips": [],
+                    "IsDiagnosticCompleted": true
+                  }
+                ],
+                "overallResults": [
+                  {
+                    "Iteration": 1,
+                    "Result": true,
+                    "ResultString": "Passed",
+                    "TotalIterations": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "testName": "USBStatus - functional NonInteractive",
+            "iteration": 1,
+            "deviceResults": [
+              {
+                "deviceName": "UsbStatus_0",
+                "subtestUpdates": [
+                  {
+                    "OverallProgress": 100,
+                    "StatusCode": "D0605",
+                    "TestName": "USB Status Tests",
+                    "TestKey": "idiag.usb.status.test",
+                    "Progress": 100,
+                    "ErrorCodeDescription": "",
+                    "StartTime": "2025-05-22T04:59:15.734327Z",
+                    "Duration": {
+                      "Seconds": 0,
+                      "Nanos": 10657500
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "UsbStatus_0",
+                    "REKey": "USBstatus_D0605",
+                    "Tips": [],
+                    "IsDiagnosticCompleted": true
+                  }
+                ],
+                "overallResults": [
+                  {
+                    "Iteration": 1,
+                    "Result": true,
+                    "ResultString": "Passed",
+                    "TotalIterations": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "testName": "CPU - functional NonInteractive",
+            "iteration": 1,
+            "deviceResults": [
+              {
+                "deviceName": "Cpu_0",
+                "subtestUpdates": [
+                  {
+                    "OverallProgress": 16,
+                    "StatusCode": "D0104",
+                    "TestName": "GenIntel",
+                    "TestKey": "idiag.cpu.functional.test.GenIntel",
+                    "Progress": 100,
+                    "StartTime": "2025-05-22T04:59:17.1517859Z",
+                    "Duration": {
+                      "Seconds": 1,
+                      "Nanos": 514814600
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Cpu_0",
+                    "REKey": "CPU_GenIntel_D0104",
+                    "Tips": []
+                  },
+                  {
+                    "OverallProgress": 32,
+                    "StatusCode": "D0109",
+                    "TestName": "avx",
+                    "TestKey": "idiag.cpu.functional.test.avx",
+                    "Progress": 100,
+                    "StartTime": "2025-05-22T04:59:18.6667427Z",
+                    "Duration": {
+                      "Seconds": 10,
+                      "Nanos": 234847900
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Cpu_0",
+                    "REKey": "CPU_Avx_D0109",
+                    "Tips": []
+                  },
+                  {
+                    "OverallProgress": 48,
+                    "StatusCode": "D0108",
+                    "TestName": "cache",
+                    "TestKey": "idiag.cpu.functional.test.cache",
+                    "Progress": 100,
+                    "StartTime": "2025-05-22T04:59:28.9016464Z",
+                    "Duration": {
+                      "Seconds": 1,
+                      "Nanos": 456960300
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Cpu_0",
+                    "REKey": "CPU_Cache_D0108",
+                    "Tips": []
+                  },
+                  {
+                    "OverallProgress": 64,
+                    "StatusCode": "D0102",
+                    "TestName": "mmxsse",
+                    "TestKey": "idiag.cpu.functional.test.mmxsse",
+                    "Progress": 100,
+                    "StartTime": "2025-05-22T04:59:30.358638Z",
+                    "Duration": {
+                      "Seconds": 1,
+                      "Nanos": 373889600
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Cpu_0",
+                    "REKey": "CPU_Mmxsse_D0102",
+                    "Tips": []
+                  },
+                  {
+                    "OverallProgress": 80,
+                    "StatusCode": "D0103",
+                    "TestName": "fma3",
+                    "TestKey": "idiag.cpu.functional.test.fma3",
+                    "Progress": 100,
+                    "StartTime": "2025-05-22T04:59:31.7325692Z",
+                    "Duration": {
+                      "Seconds": 5,
+                      "Nanos": 289332500
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Cpu_0",
+                    "REKey": "CPU_Fma3_D0103",
+                    "Tips": []
+                  },
+                  {
+                    "OverallProgress": 100,
+                    "StatusCode": "D0110",
+                    "TestName": "IMC",
+                    "TestKey": "idiag.cpu.functional.test.IMC",
+                    "Progress": 100,
+                    "StartTime": "2025-05-22T04:59:37.0219691Z",
+                    "Duration": {
+                      "Seconds": 1,
+                      "Nanos": 678376000
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Cpu_0",
+                    "REKey": "CPU_IMC_D0110",
+                    "Tips": [],
+                    "IsDiagnosticCompleted": true
+                  }
+                ],
+                "overallResults": [
+                  {
+                    "Iteration": 1,
+                    "Result": true,
+                    "ResultString": "Passed",
+                    "TotalIterations": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "testName": "CPU - stress NonInteractive",
+            "iteration": 1,
+            "deviceResults": [
+              {
+                "deviceName": "Cpu_0",
+                "subtestUpdates": [
+                  {
+                    "OverallProgress": 25,
+                    "StatusCode": "D0114",
+                    "TestName": "Math_PrimeNum",
+                    "TestKey": "idiag.cpu.stress.test.Math_PrimeNum",
+                    "Progress": 100,
+                    "StartTime": "2025-05-22T05:08:59.5722576Z",
+                    "Duration": {
+                      "Seconds": 3,
+                      "Nanos": 504275200
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Cpu_0",
+                    "REKey": "CPU_Math_PrimeNum_D0114",
+                    "Tips": []
+                  },
+                  {
+                    "OverallProgress": 50,
+                    "StatusCode": "D0115",
+                    "TestName": "Math_FP",
+                    "TestKey": "idiag.cpu.stress.test.Math_FP",
+                    "Progress": 100,
+                    "StartTime": "2025-05-22T05:09:03.0765969Z",
+                    "Duration": {
+                      "Seconds": 2,
+                      "Nanos": 943083000
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Cpu_0",
+                    "REKey": "CPU_Math_FP_D0115",
+                    "Tips": []
+                  },
+                  {
+                    "OverallProgress": 75,
+                    "StatusCode": "D0116",
+                    "TestName": "GpuStressW",
+                    "TestKey": "idiag.cpu.stress.test.GpuStressW",
+                    "Progress": 100,
+                    "StartTime": "2025-05-22T05:09:06.0197513Z",
+                    "Duration": {
+                      "Seconds": 61,
+                      "Nanos": 672424400
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Cpu_0",
+                    "REKey": "CPU_GpuStressW_D0116",
+                    "Tips": []
+                  },
+                  {
+                    "OverallProgress": 100,
+                    "StatusCode": "D0117",
+                    "TestName": "dgemm",
+                    "TestKey": "idiag.cpu.stress.test.dgemm",
+                    "Progress": 100,
+                    "StartTime": "2025-05-22T05:10:07.6923313Z",
+                    "Duration": {
+                      "Seconds": 61,
+                      "Nanos": 569426900
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Cpu_0",
+                    "REKey": "CPU_Dgemm_D0117",
+                    "Tips": [],
+                    "IsDiagnosticCompleted": true
+                  }
+                ],
+                "overallResults": [
+                  {
+                    "Iteration": 1,
+                    "Result": true,
+                    "ResultString": "Passed",
+                    "TotalIterations": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "testName": "Fans - functional NonInteractive",
+            "iteration": 1,
+            "deviceResults": [
+              {
+                "deviceName": "Fan_CpuFan_0",
+                "subtestUpdates": [
+                  {
+                    "OverallProgress": 100,
+                    "StatusCode": "D0501",
+                    "TestName": "Fans - Functional Tests",
+                    "TestKey": "idiag.fan.test",
+                    "Progress": 100,
+                    "ErrorCodeDescription": "Fan - testing success",
+                    "StartTime": "2025-05-22T04:59:19.4726749Z",
+                    "Duration": {
+                      "Seconds": 15,
+                      "Nanos": 715471500
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Fan_CpuFan_0",
+                    "REKey": "Fan_D0501",
+                    "Tips": [],
+                    "IsDiagnosticCompleted": true
+                  }
+                ],
+                "overallResults": [
+                  {
+                    "Iteration": 1,
+                    "Result": true,
+                    "ResultString": "Passed",
+                    "TotalIterations": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "testName": "Memory - Basic NonInteractive",
+            "iteration": 1,
+            "deviceResults": [
+              {
+                "deviceName": "Memory_0",
+                "subtestUpdates": [
+                  {
+                    "OverallProgress": 100,
+                    "StatusCode": "D0201",
+                    "TestName": "MarchC",
+                    "TestKey": "idiag.memory.basic.test.MarchC",
+                    "Progress": 100,
+                    "ErrorCodeDescription": "Memory - testing success",
+                    "StartTime": "2025-05-22T05:07:32.4242249Z",
+                    "Duration": {
+                      "Seconds": 85,
+                      "Nanos": 348802900
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Memory_0",
+                    "REKey": "Memory_MarchC_D0201",
+                    "Tips": [],
+                    "IsDiagnosticCompleted": true
+                  }
+                ],
+                "overallResults": [
+                  {
+                    "Iteration": 1,
+                    "Result": true,
+                    "ResultString": "Passed",
+                    "TotalIterations": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "testName": "Memory - Advanced NonInteractive",
+            "iteration": 1,
+            "deviceResults": [
+              {
+                "deviceName": "Memory_0",
+                "subtestUpdates": [
+                  {
+                    "OverallProgress": 14,
+                    "StatusCode": "D0201",
+                    "TestName": "MarchC",
+                    "TestKey": "idiag.memory.advanced.test.MarchC",
+                    "Progress": 100,
+                    "ErrorCodeDescription": "",
+                    "StartTime": "2025-05-22T04:59:41.7910161Z",
+                    "Duration": {
+                      "Seconds": 83,
+                      "Nanos": 345770100
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Memory_0",
+                    "REKey": "Memory_MarchC_D0201",
+                    "Tips": []
+                  },
+                  {
+                    "OverallProgress": 28,
+                    "StatusCode": "D0202",
+                    "TestName": "WMchC",
+                    "TestKey": "idiag.memory.advanced.test.WMchC",
+                    "Progress": 100,
+                    "ErrorCodeDescription": "",
+                    "StartTime": "2025-05-22T05:01:05.2450206Z",
+                    "Duration": {
+                      "Seconds": 1,
+                      "Nanos": 91897100
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Memory_0",
+                    "REKey": "Memory_WMchC_D0202",
+                    "Tips": []
+                  },
+                  {
+                    "OverallProgress": 42,
+                    "StatusCode": "D0203",
+                    "TestName": "WMatsP",
+                    "TestKey": "idiag.memory.advanced.test.WMatsP",
+                    "Progress": 100,
+                    "ErrorCodeDescription": "",
+                    "StartTime": "2025-05-22T05:01:06.4400043Z",
+                    "Duration": {
+                      "Seconds": 229,
+                      "Nanos": 730146300
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Memory_0",
+                    "REKey": "Memory_WMatsP_D0203",
+                    "Tips": []
+                  },
+                  {
+                    "OverallProgress": 57,
+                    "StatusCode": "D0204",
+                    "TestName": "Integrity1",
+                    "TestKey": "idiag.memory.advanced.test.Integrity1",
+                    "Progress": 100,
+                    "ErrorCodeDescription": "",
+                    "StartTime": "2025-05-22T05:04:56.2831565Z",
+                    "Duration": {
+                      "Seconds": 0,
+                      "Nanos": 953842200
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Memory_0",
+                    "REKey": "Memory_Integrity1_D0204",
+                    "Tips": []
+                  },
+                  {
+                    "OverallProgress": 71,
+                    "StatusCode": "D0206",
+                    "TestName": "Integrity2",
+                    "TestKey": "idiag.memory.advanced.test.Integrity2",
+                    "Progress": 100,
+                    "ErrorCodeDescription": "",
+                    "StartTime": "2025-05-22T05:04:57.3475478Z",
+                    "Duration": {
+                      "Seconds": 10,
+                      "Nanos": 457446100
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Memory_0",
+                    "REKey": "Memory_Integrity2_D0206",
+                    "Tips": []
+                  },
+                  {
+                    "OverallProgress": 85,
+                    "StatusCode": "D0207",
+                    "TestName": "PMOVI",
+                    "TestKey": "idiag.memory.advanced.test.PMOVI",
+                    "Progress": 100,
+                    "ErrorCodeDescription": "",
+                    "StartTime": "2025-05-22T05:05:07.9103793Z",
+                    "Duration": {
+                      "Seconds": 10,
+                      "Nanos": 493808600
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Memory_0",
+                    "REKey": "Memory_PMOVI_D0207",
+                    "Tips": []
+                  },
+                  {
+                    "OverallProgress": 100,
+                    "StatusCode": "D0208",
+                    "TestName": "XMats32S",
+                    "TestKey": "idiag.memory.advanced.test.XMats32S",
+                    "Progress": 100,
+                    "ErrorCodeDescription": "Memory - testing success",
+                    "StartTime": "2025-05-22T05:05:18.510399Z",
+                    "Duration": {
+                      "Seconds": 132,
+                      "Nanos": 590278400
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Memory_0",
+                    "REKey": "Memory_XMats32S_D0208",
+                    "Tips": [],
+                    "IsDiagnosticCompleted": true
+                  }
+                ],
+                "overallResults": [
+                  {
+                    "Iteration": 1,
+                    "Result": true,
+                    "ResultString": "Passed",
+                    "TotalIterations": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "testName": "Wired Network - functional NonInteractive",
+            "iteration": 1,
+            "deviceResults": [
+              {
+                "deviceName": "NetworkAdapter_PCI\\VEN_10EC&DEV_8168&SUBSYS_0B791028&REV_15\\01000000684CE00000",
+                "subtestUpdates": [
+                  {
+                    "OverallProgress": 100,
+                    "StatusCode": "D1301",
+                    "TestName": "Loopback Test",
+                    "TestKey": "idiag.network.wired.test.loopbacktest",
+                    "Progress": 0,
+                    "ErrorCodeDescription": "Network Diagnostic Failed: The given key 'PCI\\VEN_10EC&DEV_8168&SUBSYS_0B791028&REV_15\\01000000684CE00000' was not present in the dictionary.",
+                    "StartTime": "2025-05-22T04:59:19.7330088Z",
+                    "Result": 10,
+                    "ResultKey": "InternalError",
+                    "DeviceId": "NetworkAdapter_PCI\\VEN_10EC&DEV_8168&SUBSYS_0B791028&REV_15\\01000000684CE00000",
+                    "REKey": "Network_Wired_Loopback_D1301",
+                    "Tips": [],
+                    "IsDiagnosticCompleted": true
+                  }
+                ],
+                "overallResults": [
+                  {
+                    "Iteration": 1,
+                    "Result": false,
+                    "ResultString": "Warning",
+                    "TotalIterations": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "testName": "Storage - Short DST NonInteractive",
+            "iteration": 1,
+            "deviceResults": [
+              {
+                "deviceName": "Disk_SCSI\\DISK&VEN_NVME&PROD_P0221_NVME_PHISO\\4&11E3DEED&0&030000",
+                "subtestUpdates": [
+                  {
+                    "OverallProgress": 33,
+                    "StatusCode": "D0401",
+                    "TestName": "Short DST Test",
+                    "TestKey": "idiag.storage.test.shortdst",
+                    "Progress": 100,
+                    "StartTime": "2025-05-22T04:59:37.8516777Z",
+                    "Duration": {
+                      "Seconds": 102,
+                      "Nanos": 76364700
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Disk_SCSI\\DISK&VEN_NVME&PROD_P0221_NVME_PHISO\\4&11E3DEED&0&030000",
+                    "REKey": "Storage_ShortDST_D0401",
+                    "Tips": []
+                  },
+                  {
+                    "OverallProgress": 66,
+                    "StatusCode": "D0402",
+                    "TestName": "SMART Wear level Test",
+                    "TestKey": "idiag.storage.test.smartwear",
+                    "Progress": 100,
+                    "StartTime": "2025-05-22T05:01:19.9281092Z",
+                    "Duration": {
+                      "Seconds": 0,
+                      "Nanos": 59554500
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Disk_SCSI\\DISK&VEN_NVME&PROD_P0221_NVME_PHISO\\4&11E3DEED&0&030000",
+                    "REKey": "Storage_SmartWearLevel_D0402",
+                    "Tips": []
+                  },
+                  {
+                    "OverallProgress": 100,
+                    "StatusCode": "D0403",
+                    "TestName": "WMI SMART Status Test",
+                    "TestKey": "idiag.storage.test.smartstatus",
+                    "Progress": 100,
+                    "StartTime": "2025-05-22T05:01:19.9877202Z",
+                    "Duration": {
+                      "Seconds": 0,
+                      "Nanos": 27203200
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Disk_SCSI\\DISK&VEN_NVME&PROD_P0221_NVME_PHISO\\4&11E3DEED&0&030000",
+                    "REKey": "Storage_WMISmartStatus_D0403",
+                    "Tips": [],
+                    "IsDiagnosticCompleted": true
+                  }
+                ],
+                "overallResults": [
+                  {
+                    "Iteration": 1,
+                    "Result": true,
+                    "ResultString": "Passed",
+                    "TotalIterations": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "testName": "Storage - Long DST NonInteractive",
+            "iteration": 1,
+            "deviceResults": [
+              {
+                "deviceName": "Disk_SCSI\\DISK&VEN_NVME&PROD_P0221_NVME_PHISO\\4&11E3DEED&0&030000",
+                "subtestUpdates": [
+                  {
+                    "OverallProgress": 33,
+                    "StatusCode": "D0407",
+                    "TestName": "Long DST Test",
+                    "TestKey": "idiag.storage.test.longdst",
+                    "Progress": 100,
+                    "StartTime": "2025-05-22T05:01:35.0483175Z",
+                    "Duration": {
+                      "Seconds": 510,
+                      "Nanos": 896943500
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Disk_SCSI\\DISK&VEN_NVME&PROD_P0221_NVME_PHISO\\4&11E3DEED&0&030000",
+                    "REKey": "Storage_LongDST_D0407",
+                    "Tips": []
+                  },
+                  {
+                    "OverallProgress": 66,
+                    "StatusCode": "D0402",
+                    "TestName": "SMART Wear level Test",
+                    "TestKey": "idiag.storage.test.smartwear",
+                    "Progress": 100,
+                    "StartTime": "2025-05-22T05:10:05.9452835Z",
+                    "Duration": {
+                      "Seconds": 0,
+                      "Nanos": 14768200
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Disk_SCSI\\DISK&VEN_NVME&PROD_P0221_NVME_PHISO\\4&11E3DEED&0&030000",
+                    "REKey": "Storage_SmartWearLevel_D0402",
+                    "Tips": []
+                  },
+                  {
+                    "OverallProgress": 100,
+                    "StatusCode": "D0403",
+                    "TestName": "WMI SMART Status Test",
+                    "TestKey": "idiag.storage.test.smartstatus",
+                    "Progress": 100,
+                    "StartTime": "2025-05-22T05:10:05.9600685Z",
+                    "Duration": {
+                      "Seconds": 0,
+                      "Nanos": 18688500
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Disk_SCSI\\DISK&VEN_NVME&PROD_P0221_NVME_PHISO\\4&11E3DEED&0&030000",
+                    "REKey": "Storage_WMISmartStatus_D0403",
+                    "Tips": [],
+                    "IsDiagnosticCompleted": true
+                  }
+                ],
+                "overallResults": [
+                  {
+                    "Iteration": 1,
+                    "Result": true,
+                    "ResultString": "Passed",
+                    "TotalIterations": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "testName": "Tpm - functional NonInteractive",
+            "iteration": 1,
+            "deviceResults": [
+              {
+                "deviceName": "TPM_0",
+                "subtestUpdates": [
+                  {
+                    "OverallProgress": 50,
+                    "StatusCode": "D2901",
+                    "TestName": "TPM Self Test",
+                    "TestKey": "idiag.tpm.self.test",
+                    "Progress": 100,
+                    "ErrorCodeDescription": "",
+                    "StartTime": "2025-05-22T04:59:30.8551185Z",
+                    "Duration": {
+                      "Seconds": 0,
+                      "Nanos": 22000
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "TPM_0",
+                    "REKey": "TPM_Self_D2901",
+                    "Tips": []
+                  },
+                  {
+                    "OverallProgress": 100,
+                    "StatusCode": "D2902",
+                    "TestName": "TPM Full Test",
+                    "TestKey": "idiag.tpm.full.test",
+                    "Progress": 100,
+                    "ErrorCodeDescription": "",
+                    "StartTime": "2025-05-22T04:59:31.0100323Z",
+                    "Duration": {
+                      "Seconds": 0,
+                      "Nanos": 14300
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "TPM_0",
+                    "REKey": "TPM_Full_D2902",
+                    "Tips": [],
+                    "IsDiagnosticCompleted": true
+                  }
+                ],
+                "overallResults": [
+                  {
+                    "Iteration": 1,
+                    "Result": true,
+                    "ResultString": "Passed",
+                    "TotalIterations": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "testName": "SmartCardReader - functional NonInteractive",
+            "iteration": 1,
+            "deviceResults": [
+              {
+                "deviceName": "",
+                "subtestUpdates": [
+                  {
+                    "OverallProgress": 100,
+                    "TestName": "SCR functional Test",
+                    "TestKey": "idiag.scr.test",
+                    "Progress": 100,
+                    "ErrorCodeDescription": "DeviceNotAvailable",
+                    "StartTime": "2025-05-22T04:59:30.8391374Z",
+                    "Result": 6,
+                    "ResultKey": "NoDevice",
+                    "REKey": "NotApplicable",
+                    "Tips": [],
+                    "IsDiagnosticCompleted": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "testName": "Accelerometer - functional NonInteractive",
+            "iteration": 1,
+            "deviceResults": [
+              {
+                "deviceName": "",
+                "subtestUpdates": [
+                  {
+                    "OverallProgress": 100,
+                    "TestName": "Accelerometers - Functional Tests",
+                    "TestKey": "idiag.accelerometer.test",
+                    "Progress": 100,
+                    "ErrorCodeDescription": "DeviceNotAvailable",
+                    "StartTime": "2025-05-22T04:59:30.8641302Z",
+                    "Result": 6,
+                    "ResultKey": "NoDevice",
+                    "REKey": "NotApplicable",
+                    "Tips": [],
+                    "IsDiagnosticCompleted": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "testName": "AmbientLightSensor - functional NonInteractive",
+            "iteration": 1,
+            "deviceResults": [
+              {
+                "deviceName": "",
+                "subtestUpdates": [
+                  {
+                    "OverallProgress": 100,
+                    "TestName": "AmbientLightSensor Functional Test",
+                    "TestKey": "idiag.ambientlightsensor.test",
+                    "Progress": 100,
+                    "ErrorCodeDescription": "DeviceNotAvailable",
+                    "StartTime": "2025-05-22T04:59:30.8764459Z",
+                    "Result": 6,
+                    "ResultKey": "NoDevice",
+                    "REKey": "NotApplicable",
+                    "Tips": [],
+                    "IsDiagnosticCompleted": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "overallScriptResult": {
+      "Result": false,
+      "ResultString": "Warning",
+      "TotalIterations": 1
+    }
+  }
+}

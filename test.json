@@ -1,0 +1,1507 @@
+{
+  "SystemInfo": {
+    "DellDiagnostics": "Dell Diagnostics Version 1.3.1.3273",
+    "ProductName": "Vostro 3520",
+    "BiosVersion": "1.30.0",
+    "SerialNumber": "JT6JM24",
+    "HostName": "DESKTOP-28TM2BC",
+    "OSFriendlyName": "Microsoft Windows 11 Home Single Language",
+    "OSVersion": "10.0.22631.0"
+  },
+  "AdditionalInfo": {
+    "testSetResults": [
+      {
+        "testSetName": "TestSet",
+        "testResults": [
+          {
+            "testName": "Audio Input Devices - functional Interactive",
+            "iteration": 1,
+            "deviceResults": [
+              {
+                "deviceName": "Sound_{0.0.1.00000000}.{AED32630-2FAA-41DA-A367-E111AC41E347}",
+                "subtestUpdates": [
+                  {
+                    "OverallProgress": 100,
+                    "StatusCode": "D1610",
+                    "TestName": "Microphone Functional Test",
+                    "TestKey": "idiag.audio.test.AudioMicrophoneTest",
+                    "Progress": 100,
+                    "StartTime": "2025-06-04T08:39:26.5739789Z",
+                    "Duration": {
+                      "Seconds": 60,
+                      "Nanos": 875076600
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Sound_{0.0.1.00000000}.{AED32630-2FAA-41DA-A367-E111AC41E347}",
+                    "REKey": "Audio_Microphone_D1610",
+                    "Tips": [],
+                    "IsDiagnosticCompleted": true
+                  }
+                ],
+                "overallResults": [
+                  {
+                    "Iteration": 1,
+                    "Result": true,
+                    "ResultString": "Passed",
+                    "TotalIterations": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "testName": "Audio Output Devices - functional Interactive",
+            "iteration": 1,
+            "deviceResults": [
+              {
+                "deviceName": "Sound_{0.0.0.00000000}.{6EB93C17-6C0A-4F6E-8643-9888889A09BE}",
+                "subtestUpdates": [
+                  {
+                    "OverallProgress": 50,
+                    "StatusCode": "D1602",
+                    "TestName": "Audio Speaker Test",
+                    "TestKey": "idiag.audio.test.AudioSpeakerTest",
+                    "Progress": 100,
+                    "StartTime": "2025-06-04T08:40:32.5411089Z",
+                    "Duration": {
+                      "Seconds": 32,
+                      "Nanos": 769596400
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Sound_{0.0.0.00000000}.{6EB93C17-6C0A-4F6E-8643-9888889A09BE}",
+                    "REKey": "Audio_Speaker_D1602",
+                    "Tips": []
+                  },
+                  {
+                    "OverallProgress": 100,
+                    "StatusCode": "D1615",
+                    "TestName": "Audio Speaker Confirmation Test",
+                    "TestKey": "idiag.audio.test.AudioSpeakerConfirmationTest",
+                    "Progress": 100,
+                    "StartTime": "2025-06-04T08:41:05.3122198Z",
+                    "Duration": {
+                      "Seconds": 18,
+                      "Nanos": 868793400
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Sound_{0.0.0.00000000}.{6EB93C17-6C0A-4F6E-8643-9888889A09BE}",
+                    "REKey": "Audio_SpeakerConfirmation_D1615",
+                    "Tips": [],
+                    "IsDiagnosticCompleted": true
+                  }
+                ],
+                "overallResults": [
+                  {
+                    "Iteration": 1,
+                    "Result": true,
+                    "ResultString": "Passed",
+                    "TotalIterations": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "testName": "Camera - functional Interactive",
+            "iteration": 1,
+            "deviceResults": [
+              {
+                "deviceName": "Webcam_USB\\VID_0BDA&PID_567E&MI_00\\6&5DC415B&0&0000",
+                "subtestUpdates": [
+                  {
+                    "OverallProgress": 14,
+                    "StatusCode": "D1701",
+                    "TestName": "Camera Preview Test",
+                    "TestKey": "idiag.camera.test.camerapreviewtest",
+                    "Progress": 100,
+                    "ErrorCodeDescription": "",
+                    "StartTime": "2025-06-04T08:41:31.8487158Z",
+                    "Duration": {
+                      "Seconds": 11,
+                      "Nanos": 939865100
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Webcam_USB\\VID_0BDA&PID_567E&MI_00\\6&5DC415B&0&0000",
+                    "REKey": "Camera_CameraPreview_D1701",
+                    "Tips": []
+                  },
+                  {
+                    "OverallProgress": 28,
+                    "StatusCode": "D1703",
+                    "TestName": "CaptureTo File Test",
+                    "TestKey": "idiag.camera.test.capturetofiletest",
+                    "Progress": 100,
+                    "ErrorCodeDescription": "",
+                    "StartTime": "2025-06-04T08:41:43.7899958Z",
+                    "Duration": {
+                      "Seconds": 7,
+                      "Nanos": 68664500
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Webcam_USB\\VID_0BDA&PID_567E&MI_00\\6&5DC415B&0&0000",
+                    "REKey": "Camera_CapturetoFile_D1703",
+                    "Tips": []
+                  },
+                  {
+                    "OverallProgress": 42,
+                    "StatusCode": "D1704",
+                    "TestName": "Luminance Depth Test",
+                    "TestKey": "idiag.camera.test.luminancedepthtest",
+                    "Progress": 100,
+                    "ErrorCodeDescription": "",
+                    "StartTime": "2025-06-04T08:41:50.8603523Z",
+                    "Duration": {
+                      "Seconds": 3,
+                      "Nanos": 22748900
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Webcam_USB\\VID_0BDA&PID_567E&MI_00\\6&5DC415B&0&0000",
+                    "REKey": "Camera_LuminanceDepth_D1704",
+                    "Tips": []
+                  },
+                  {
+                    "OverallProgress": 56,
+                    "StatusCode": "D1705",
+                    "TestName": "RGB Color Depth Test",
+                    "TestKey": "idiag.camera.test.rgbcolordepthtest",
+                    "Progress": 100,
+                    "ErrorCodeDescription": "",
+                    "StartTime": "2025-06-04T08:41:53.8845015Z",
+                    "Duration": {
+                      "Seconds": 3,
+                      "Nanos": 46496800
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Webcam_USB\\VID_0BDA&PID_567E&MI_00\\6&5DC415B&0&0000",
+                    "REKey": "Camera_RGBColorDepth_D1705",
+                    "Tips": []
+                  },
+                  {
+                    "OverallProgress": 100,
+                    "StatusCode": "D1706",
+                    "TestName": "Edge Detection Test",
+                    "TestKey": "idiag.camera.test.edgedetectiontest",
+                    "Progress": 100,
+                    "ErrorCodeDescription": "",
+                    "StartTime": "2025-06-04T08:41:56.9325027Z",
+                    "Duration": {
+                      "Seconds": 3,
+                      "Nanos": 57321900
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Webcam_USB\\VID_0BDA&PID_567E&MI_00\\6&5DC415B&0&0000",
+                    "REKey": "Camera_EdgeDetection_D1706",
+                    "Tips": [],
+                    "IsDiagnosticCompleted": true
+                  }
+                ],
+                "overallResults": [
+                  {
+                    "Iteration": 1,
+                    "Result": true,
+                    "ResultString": "Passed",
+                    "TotalIterations": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "testName": "Video Port - functional Interactive",
+            "iteration": 1,
+            "deviceResults": [
+              {
+                "deviceName": "VideoPorts",
+                "subtestUpdates": [
+                  {
+                    "OverallProgress": 50,
+                    "StatusCode": "D2201",
+                    "TestName": "Video Port - Functional Tests",
+                    "TestKey": "idiag.videoport.test",
+                    "Progress": 100,
+                    "StartTime": "2025-06-04T08:42:05.04715Z",
+                    "Duration": {
+                      "Seconds": 12,
+                      "Nanos": 567795400
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "VideoPorts",
+                    "REKey": "Videoport_D2201",
+                    "Tips": []
+                  },
+                  {
+                    "OverallProgress": 100,
+                    "StatusCode": "D2202",
+                    "TestName": "Advanced Video Port",
+                    "TestKey": "idiag.videoport.test.advanced",
+                    "Progress": 100,
+                    "StartTime": "2025-06-04T08:42:17.6167702Z",
+                    "Duration": {
+                      "Seconds": 2,
+                      "Nanos": 243970700
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "VideoPorts",
+                    "REKey": "Videoport_Advanced_D2202",
+                    "Tips": [],
+                    "IsDiagnosticCompleted": true
+                  }
+                ],
+                "overallResults": [
+                  {
+                    "Iteration": 1,
+                    "Result": true,
+                    "ResultString": "Passed",
+                    "TotalIterations": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "testName": "Charger - functional Interactive",
+            "iteration": 1,
+            "deviceResults": [
+              {
+                "deviceName": "Charger_0",
+                "subtestUpdates": [
+                  {
+                    "OverallProgress": 100,
+                    "StatusCode": "D2101",
+                    "TestName": "Charger - Functional Tests",
+                    "TestKey": "idiag.charger.test",
+                    "Progress": 100,
+                    "ErrorCodeDescription": "",
+                    "StartTime": "2025-06-04T08:42:30.5830383Z",
+                    "Duration": {
+                      "Seconds": 12,
+                      "Nanos": 705357900
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Charger_0",
+                    "REKey": "Charger_D2101",
+                    "Tips": [],
+                    "IsDiagnosticCompleted": true
+                  }
+                ],
+                "overallResults": [
+                  {
+                    "Iteration": 1,
+                    "Result": true,
+                    "ResultString": "Passed",
+                    "TotalIterations": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "testName": "Fingerprint Reader - functional Interactive",
+            "iteration": 1,
+            "deviceResults": [
+              {
+                "deviceName": "",
+                "subtestUpdates": [
+                  {
+                    "OverallProgress": 100,
+                    "TestName": "Fingerprint Reader - Functional Tests",
+                    "TestKey": "idiag.fingerprint.test",
+                    "Progress": 100,
+                    "ErrorCodeDescription": "DeviceNotAvailable",
+                    "StartTime": "2025-06-04T08:42:48.3369293Z",
+                    "Result": 6,
+                    "ResultKey": "NoDevice",
+                    "REKey": "NotApplicable",
+                    "Tips": [],
+                    "IsDiagnosticCompleted": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "testName": "TouchPad - functional Interactive",
+            "iteration": 1,
+            "deviceResults": [
+              {
+                "deviceName": "TouchPad_HID\\VEN_27C6&COL02\\5&10F703A4&0&0001",
+                "subtestUpdates": [
+                  {
+                    "OverallProgress": 100,
+                    "StatusCode": "D1101",
+                    "TestName": "Touchpad - Functional Tests",
+                    "TestKey": "idiag.touchpad.test",
+                    "Progress": 100,
+                    "StartTime": "2025-06-04T08:42:53.533822Z",
+                    "Duration": {
+                      "Seconds": 8,
+                      "Nanos": 886622200
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "TouchPad_HID\\VEN_27C6&COL02\\5&10F703A4&0&0001",
+                    "REKey": "Touchpad_D1101",
+                    "Tips": [],
+                    "IsDiagnosticCompleted": true
+                  }
+                ],
+                "overallResults": [
+                  {
+                    "Iteration": 1,
+                    "Result": true,
+                    "ResultString": "Passed",
+                    "TotalIterations": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "testName": "TouchScreen - functional Interactive",
+            "iteration": 1,
+            "deviceResults": [
+              {
+                "deviceName": "",
+                "subtestUpdates": [
+                  {
+                    "OverallProgress": 100,
+                    "TestName": "TouchScreen - Functional Tests",
+                    "TestKey": "idiag.touchscreen.test",
+                    "Progress": 100,
+                    "ErrorCodeDescription": "DeviceNotAvailable",
+                    "StartTime": "2025-06-04T08:43:07.4686285Z",
+                    "Result": 6,
+                    "ResultKey": "NoDevice",
+                    "REKey": "NotApplicable",
+                    "Tips": [],
+                    "IsDiagnosticCompleted": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "testName": "Keyboard - functional Interactive",
+            "iteration": 1,
+            "deviceResults": [
+              {
+                "deviceName": "Keyboard_ACPI\\DLLK0B66\\4&7DBEF49&0",
+                "subtestUpdates": [
+                  {
+                    "OverallProgress": 50,
+                    "StatusCode": "D1001",
+                    "TestName": "Keyboard - Functional Tests",
+                    "TestKey": "idiag.keyboard.test",
+                    "Progress": 100,
+                    "StartTime": "2025-06-04T08:44:10.1179361Z",
+                    "Duration": {
+                      "Seconds": 8,
+                      "Nanos": 439353000
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Keyboard_ACPI\\DLLK0B66\\4&7DBEF49&0",
+                    "REKey": "Keyboard_D1001",
+                    "Tips": []
+                  },
+                  {
+                    "OverallProgress": 100,
+                    "StatusCode": "D1002",
+                    "TestName": "Keyboard Layout Test",
+                    "TestKey": "idiag.keyboard.test.layout",
+                    "Progress": 100,
+                    "StartTime": "2025-06-04T08:44:18.5591923Z",
+                    "Duration": {
+                      "Seconds": 48,
+                      "Nanos": 70477100
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Keyboard_ACPI\\DLLK0B66\\4&7DBEF49&0",
+                    "REKey": "Keyboard_Layout_D1002",
+                    "Tips": [],
+                    "IsDiagnosticCompleted": true
+                  }
+                ],
+                "overallResults": [
+                  {
+                    "Iteration": 1,
+                    "Result": true,
+                    "ResultString": "Passed",
+                    "TotalIterations": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "testName": "Wireless Network - functional Interactive",
+            "iteration": 1,
+            "deviceResults": [
+              {
+                "deviceName": "NetworkAdapter_PCI\\VEN_10EC&DEV_C821&SUBSYS_C82810EC&REV_00\\00E04CFFFEC8210100",
+                "subtestUpdates": [
+                  {
+                    "OverallProgress": 14,
+                    "StatusCode": "D1315",
+                    "TestName": "SSID Scan Test",
+                    "TestKey": "idiag.network.wireless.test.ssidscantest",
+                    "Progress": 100,
+                    "ErrorCodeDescription": "",
+                    "StartTime": "2025-06-04T08:45:11.9356784Z",
+                    "Duration": {
+                      "Seconds": 7,
+                      "Nanos": 458155600
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "NetworkAdapter_PCI\\VEN_10EC&DEV_C821&SUBSYS_C82810EC&REV_00\\00E04CFFFEC8210100",
+                    "REKey": "Network_Wireless_SSIDScan_D1315",
+                    "Tips": []
+                  },
+                  {
+                    "OverallProgress": 28,
+                    "StatusCode": "D1307",
+                    "TestName": "Loopback Test",
+                    "TestKey": "idiag.network.wireless.test.loopbacktest",
+                    "Progress": 100,
+                    "ErrorCodeDescription": "",
+                    "StartTime": "2025-06-04T08:45:19.3938416Z",
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "NetworkAdapter_PCI\\VEN_10EC&DEV_C821&SUBSYS_C82810EC&REV_00\\00E04CFFFEC8210100",
+                    "REKey": "Network_Wireless_Loopback_D1307",
+                    "Tips": []
+                  },
+                  {
+                    "OverallProgress": 42,
+                    "StatusCode": "D1309",
+                    "TestName": "Network Link Test",
+                    "TestKey": "idiag.network.wireless.test.networklinktest",
+                    "Progress": 100,
+                    "ErrorCodeDescription": "",
+                    "StartTime": "2025-06-04T08:45:19.4093452Z",
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "NetworkAdapter_PCI\\VEN_10EC&DEV_C821&SUBSYS_C82810EC&REV_00\\00E04CFFFEC8210100",
+                    "REKey": "Network_Wireless_NetworkLink_D1309",
+                    "Tips": []
+                  },
+                  {
+                    "OverallProgress": 57,
+                    "StatusCode": "D1310",
+                    "TestName": "Internet Connection Test",
+                    "TestKey": "idiag.network.wireless.test.internetconnectiontest",
+                    "Progress": 100,
+                    "ErrorCodeDescription": "",
+                    "StartTime": "2025-06-04T08:45:21.6971008Z",
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "NetworkAdapter_PCI\\VEN_10EC&DEV_C821&SUBSYS_C82810EC&REV_00\\00E04CFFFEC8210100",
+                    "REKey": "Network_Wireless_InternetConnection_D1310",
+                    "Tips": []
+                  },
+                  {
+                    "OverallProgress": 71,
+                    "StatusCode": "D1311",
+                    "TestName": "Local Network Communication Test",
+                    "TestKey": "idiag.network.wireless.test.Local networkcommunicationtest",
+                    "Progress": 100,
+                    "ErrorCodeDescription": "",
+                    "StartTime": "2025-06-04T08:45:21.7111197Z",
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "NetworkAdapter_PCI\\VEN_10EC&DEV_C821&SUBSYS_C82810EC&REV_00\\00E04CFFFEC8210100",
+                    "REKey": "Network_Wireless_LocalNetworkCommunication_D1311",
+                    "Tips": []
+                  },
+                  {
+                    "OverallProgress": 85,
+                    "StatusCode": "D1312",
+                    "TestName": "Data Transfer Validation Test",
+                    "TestKey": "idiag.network.wireless.test.datatransfervalidationtest",
+                    "Progress": 100,
+                    "ErrorCodeDescription": "",
+                    "StartTime": "2025-06-04T08:45:53.3245744Z",
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "NetworkAdapter_PCI\\VEN_10EC&DEV_C821&SUBSYS_C82810EC&REV_00\\00E04CFFFEC8210100",
+                    "REKey": "Network_Wireless_DataTransferValidation_D1312",
+                    "Tips": []
+                  },
+                  {
+                    "OverallProgress": 100,
+                    "StatusCode": "D1313",
+                    "TestName": "Pcie Status Test",
+                    "TestKey": "idiag.network.wireless.test.pciestatustest",
+                    "Progress": 100,
+                    "ErrorCodeDescription": "",
+                    "StartTime": "2025-06-04T08:46:40.6066453Z",
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "NetworkAdapter_PCI\\VEN_10EC&DEV_C821&SUBSYS_C82810EC&REV_00\\00E04CFFFEC8210100",
+                    "REKey": "Network_Wireless_PCIeStatus_D1313",
+                    "Tips": [],
+                    "IsDiagnosticCompleted": true
+                  }
+                ],
+                "overallResults": [
+                  {
+                    "Iteration": 1,
+                    "Result": true,
+                    "ResultString": "Passed",
+                    "TotalIterations": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "testName": "ProximitySensor - functional Interactive",
+            "iteration": 1,
+            "deviceResults": [
+              {
+                "deviceName": "",
+                "subtestUpdates": [
+                  {
+                    "OverallProgress": 100,
+                    "TestName": "ProximitySensor - Functional Tests",
+                    "TestKey": "idiag.proximitysensor.test",
+                    "Progress": 100,
+                    "ErrorCodeDescription": "DeviceNotAvailable",
+                    "StartTime": "2025-06-04T08:46:48.4123907Z",
+                    "Result": 6,
+                    "ResultKey": "NoDevice",
+                    "REKey": "NotApplicable",
+                    "Tips": [],
+                    "IsDiagnosticCompleted": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "testName": "Lid - functional Interactive",
+            "iteration": 1,
+            "deviceResults": [
+              {
+                "deviceName": "LidSensor_0",
+                "subtestUpdates": [
+                  {
+                    "OverallProgress": 100,
+                    "StatusCode": "D2701",
+                    "TestName": "Lid Flip Test",
+                    "TestKey": "idiag.lid.flip.test",
+                    "Progress": 100,
+                    "ErrorCodeDescription": "",
+                    "StartTime": "2025-06-04T08:46:53.4708723Z",
+                    "Duration": {
+                      "Seconds": 15,
+                      "Nanos": 567400100
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "LidSensor_0",
+                    "REKey": "LidSensor_LidFlip_D2701",
+                    "Tips": [],
+                    "IsDiagnosticCompleted": true
+                  }
+                ],
+                "overallResults": [
+                  {
+                    "Iteration": 1,
+                    "Result": true,
+                    "ResultString": "Passed",
+                    "TotalIterations": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "testName": "Gyrometer - functional Interactive",
+            "iteration": 1,
+            "deviceResults": [
+              {
+                "deviceName": "",
+                "subtestUpdates": [
+                  {
+                    "OverallProgress": 100,
+                    "TestName": "Gyrometer Sensor Test",
+                    "TestKey": "idiag.gyrometer.sensor.test",
+                    "Progress": 100,
+                    "ErrorCodeDescription": "DeviceNotAvailable",
+                    "StartTime": "2025-06-04T08:47:14.0899722Z",
+                    "Result": 6,
+                    "ResultKey": "NoDevice",
+                    "REKey": "NotApplicable",
+                    "Tips": [],
+                    "IsDiagnosticCompleted": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "testName": "USB - functional Interactive",
+            "iteration": 1,
+            "deviceResults": [
+              {
+                "deviceName": "UsbPort_0",
+                "subtestUpdates": [
+                  {
+                    "OverallProgress": 100,
+                    "StatusCode": "D0601",
+                    "TestName": "USB - Functional Tests",
+                    "TestKey": "idiag.usb.test",
+                    "Progress": 100,
+                    "ErrorCodeDescription": "",
+                    "StartTime": "2025-06-04T08:47:20.5782529Z",
+                    "Duration": {
+                      "Seconds": 12,
+                      "Nanos": 636704400
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "UsbPort_0",
+                    "REKey": "USB_D0601",
+                    "Tips": [],
+                    "IsDiagnosticCompleted": true
+                  }
+                ],
+                "overallResults": [
+                  {
+                    "Iteration": 1,
+                    "Result": true,
+                    "ResultString": "Passed",
+                    "TotalIterations": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "testName": "Display - functional Interactive",
+            "iteration": 1,
+            "deviceResults": [
+              {
+                "deviceName": "Monitor__LGD0738_4&85d4541&0&UID8388688",
+                "subtestUpdates": [
+                  {
+                    "OverallProgress": 100,
+                    "StatusCode": "D1401",
+                    "TestName": "Display - Functional Tests",
+                    "TestKey": "idiag.display.test",
+                    "Progress": 100,
+                    "StartTime": "2025-06-04T08:47:38.3136089Z",
+                    "Duration": {
+                      "Seconds": 27,
+                      "Nanos": 88053100
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Monitor__LGD0738_4&85d4541&0&UID8388688",
+                    "REKey": "Display_D1401",
+                    "Tips": [],
+                    "IsDiagnosticCompleted": true
+                  }
+                ],
+                "overallResults": [
+                  {
+                    "Iteration": 1,
+                    "Result": true,
+                    "ResultString": "Passed",
+                    "TotalIterations": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "testName": "Bluetooth - functional Interactive",
+            "iteration": 1,
+            "deviceResults": [
+              {
+                "deviceName": "Bluetooth_USB\\VID_0BDA&PID_C829\\00E04C000001",
+                "subtestUpdates": [
+                  {
+                    "OverallProgress": 100,
+                    "StatusCode": "D1314",
+                    "TestName": "Bluetooth - Functional Tests",
+                    "TestKey": "idiag.blutooth.test",
+                    "Progress": 100,
+                    "StartTime": "2025-06-04T08:48:11.3914018Z",
+                    "Duration": {
+                      "Seconds": 65,
+                      "Nanos": 914195400
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Bluetooth_USB\\VID_0BDA&PID_C829\\00E04C000001",
+                    "REKey": "Network_Bluetooth_D1314",
+                    "Tips": [],
+                    "IsDiagnosticCompleted": true
+                  }
+                ],
+                "overallResults": [
+                  {
+                    "Iteration": 1,
+                    "Result": true,
+                    "ResultString": "Passed",
+                    "TotalIterations": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "testName": "Video - functional Interactive",
+            "iteration": 1,
+            "deviceResults": [
+              {
+                "deviceName": "VideoAdapter_PCI\\VEN_8086&DEV_46A8&SUBSYS_0B661028&REV_0C\\3&11583659&0&10",
+                "subtestUpdates": [
+                  {
+                    "OverallProgress": 16,
+                    "StatusCode": "D0815",
+                    "TestName": "Wireframe Line",
+                    "TestKey": "idiag.video.functional.test.WireframeLine",
+                    "Progress": 100,
+                    "ErrorCodeDescription": "",
+                    "StartTime": "2025-06-04T08:49:22.3733524Z",
+                    "Duration": {
+                      "Seconds": 10,
+                      "Nanos": 983342900
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "VideoAdapter_PCI\\VEN_8086&DEV_46A8&SUBSYS_0B661028&REV_0C\\3&11583659&0&10",
+                    "REKey": "Video_WireframeLine_D0815",
+                    "Tips": []
+                  },
+                  {
+                    "OverallProgress": 32,
+                    "StatusCode": "D0810",
+                    "TestName": "DX10 Shader Rendering",
+                    "TestKey": "idiag.video.functional.test.DX10ShaderRendering",
+                    "Progress": 100,
+                    "ErrorCodeDescription": "",
+                    "StartTime": "2025-06-04T08:49:33.3567173Z",
+                    "Duration": {
+                      "Seconds": 10,
+                      "Nanos": 109964200
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "VideoAdapter_PCI\\VEN_8086&DEV_46A8&SUBSYS_0B661028&REV_0C\\3&11583659&0&10",
+                    "REKey": "Video_DX10ShaderRendering_D0810",
+                    "Tips": []
+                  },
+                  {
+                    "OverallProgress": 48,
+                    "StatusCode": "D0816",
+                    "TestName": "Wireframe Shader Rendering",
+                    "TestKey": "idiag.video.functional.test.WireframeShaderRendering",
+                    "Progress": 100,
+                    "ErrorCodeDescription": "",
+                    "StartTime": "2025-06-04T08:49:43.4666949Z",
+                    "Duration": {
+                      "Seconds": 10,
+                      "Nanos": 106749800
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "VideoAdapter_PCI\\VEN_8086&DEV_46A8&SUBSYS_0B661028&REV_0C\\3&11583659&0&10",
+                    "REKey": "Video_WireframeShaderRendering_D0816",
+                    "Tips": []
+                  },
+                  {
+                    "OverallProgress": 64,
+                    "StatusCode": "D0811",
+                    "TestName": "DX11 Shader Rendering",
+                    "TestKey": "idiag.video.functional.test.DX11ShaderRendering",
+                    "Progress": 100,
+                    "ErrorCodeDescription": "",
+                    "StartTime": "2025-06-04T08:49:53.5734636Z",
+                    "Duration": {
+                      "Seconds": 10,
+                      "Nanos": 98541000
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "VideoAdapter_PCI\\VEN_8086&DEV_46A8&SUBSYS_0B661028&REV_0C\\3&11583659&0&10",
+                    "REKey": "Video_DX11ShaderRendering_D0811",
+                    "Tips": []
+                  },
+                  {
+                    "OverallProgress": 80,
+                    "StatusCode": "D0809",
+                    "TestName": "Primary Surface",
+                    "TestKey": "idiag.video.functional.test.PrimarySurface",
+                    "Progress": 100,
+                    "ErrorCodeDescription": "",
+                    "StartTime": "2025-06-04T08:50:03.6720129Z",
+                    "Duration": {
+                      "Seconds": 1,
+                      "Nanos": 187749900
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "VideoAdapter_PCI\\VEN_8086&DEV_46A8&SUBSYS_0B661028&REV_0C\\3&11583659&0&10",
+                    "REKey": "Video_PrimarySurface_D0809",
+                    "Tips": []
+                  },
+                  {
+                    "OverallProgress": 100,
+                    "StatusCode": "D0814",
+                    "TestName": "Video Memory",
+                    "TestKey": "idiag.video.functional.test.VideoMemory",
+                    "Progress": 100,
+                    "ErrorCodeDescription": "",
+                    "StartTime": "2025-06-04T08:50:04.8597739Z",
+                    "Duration": {
+                      "Seconds": 101,
+                      "Nanos": 470541300
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "VideoAdapter_PCI\\VEN_8086&DEV_46A8&SUBSYS_0B661028&REV_0C\\3&11583659&0&10",
+                    "REKey": "Video_VideoMemory_D0814",
+                    "Tips": [],
+                    "IsDiagnosticCompleted": true
+                  }
+                ],
+                "overallResults": [
+                  {
+                    "Iteration": 1,
+                    "Result": true,
+                    "ResultString": "Passed",
+                    "TotalIterations": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "testName": "CUDA - functional Interactive",
+            "iteration": 1,
+            "deviceResults": [
+              {
+                "deviceName": "",
+                "subtestUpdates": [
+                  {
+                    "OverallProgress": 100,
+                    "TestName": "CUDA - functional Test",
+                    "TestKey": "idiag.cuda.functional.test",
+                    "Progress": 100,
+                    "ErrorCodeDescription": "DeviceNotAvailable",
+                    "StartTime": "2025-06-04T08:51:51.3900403Z",
+                    "Result": 6,
+                    "ResultKey": "NoDevice",
+                    "REKey": "NotApplicable",
+                    "Tips": [],
+                    "IsDiagnosticCompleted": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "testSetName": "TestSet",
+        "testResults": [
+          {
+            "testName": "CPU - functional NonInteractive",
+            "iteration": 1,
+            "deviceResults": [
+              {
+                "deviceName": "Cpu_0",
+                "subtestUpdates": [
+                  {
+                    "OverallProgress": 16,
+                    "StatusCode": "D0104",
+                    "TestName": "GenIntel",
+                    "TestKey": "idiag.cpu.functional.test.GenIntel",
+                    "Progress": 100,
+                    "StartTime": "2025-06-04T08:51:57.3469334Z",
+                    "Duration": {
+                      "Seconds": 1,
+                      "Nanos": 75198600
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Cpu_0",
+                    "REKey": "CPU_GenIntel_D0104",
+                    "Tips": []
+                  },
+                  {
+                    "OverallProgress": 32,
+                    "StatusCode": "D0109",
+                    "TestName": "avx",
+                    "TestKey": "idiag.cpu.functional.test.avx",
+                    "Progress": 100,
+                    "StartTime": "2025-06-04T08:51:58.4231742Z",
+                    "Duration": {
+                      "Seconds": 9,
+                      "Nanos": 480561200
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Cpu_0",
+                    "REKey": "CPU_Avx_D0109",
+                    "Tips": []
+                  },
+                  {
+                    "OverallProgress": 48,
+                    "StatusCode": "D0108",
+                    "TestName": "cache",
+                    "TestKey": "idiag.cpu.functional.test.cache",
+                    "Progress": 100,
+                    "StartTime": "2025-06-04T08:52:07.9037871Z",
+                    "Duration": {
+                      "Seconds": 1,
+                      "Nanos": 43630600
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Cpu_0",
+                    "REKey": "CPU_Cache_D0108",
+                    "Tips": []
+                  },
+                  {
+                    "OverallProgress": 64,
+                    "StatusCode": "D0102",
+                    "TestName": "mmxsse",
+                    "TestKey": "idiag.cpu.functional.test.mmxsse",
+                    "Progress": 100,
+                    "StartTime": "2025-06-04T08:52:08.9474715Z",
+                    "Duration": {
+                      "Seconds": 1,
+                      "Nanos": 85512800
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Cpu_0",
+                    "REKey": "CPU_Mmxsse_D0102",
+                    "Tips": []
+                  },
+                  {
+                    "OverallProgress": 80,
+                    "StatusCode": "D0103",
+                    "TestName": "fma3",
+                    "TestKey": "idiag.cpu.functional.test.fma3",
+                    "Progress": 100,
+                    "StartTime": "2025-06-04T08:52:10.0330276Z",
+                    "Duration": {
+                      "Seconds": 5,
+                      "Nanos": 982095200
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Cpu_0",
+                    "REKey": "CPU_Fma3_D0103",
+                    "Tips": []
+                  },
+                  {
+                    "OverallProgress": 100,
+                    "StatusCode": "D0110",
+                    "TestName": "IMC",
+                    "TestKey": "idiag.cpu.functional.test.IMC",
+                    "Progress": 100,
+                    "StartTime": "2025-06-04T08:52:16.0151703Z",
+                    "Duration": {
+                      "Seconds": 1,
+                      "Nanos": 8309200
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Cpu_0",
+                    "REKey": "CPU_IMC_D0110",
+                    "Tips": [],
+                    "IsDiagnosticCompleted": true
+                  }
+                ],
+                "overallResults": [
+                  {
+                    "Iteration": 1,
+                    "Result": true,
+                    "ResultString": "Passed",
+                    "TotalIterations": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "testName": "PCI Bus - functional NonInteractive",
+            "iteration": 1,
+            "deviceResults": [
+              {
+                "deviceName": "Pcie_0",
+                "subtestUpdates": [
+                  {
+                    "OverallProgress": 100,
+                    "StatusCode": "D0701",
+                    "TestName": "PCI Bus - Functional Tests",
+                    "TestKey": "idiag.pci.test",
+                    "Progress": 100,
+                    "ErrorCodeDescription": "Pcie - testing success",
+                    "StartTime": "2025-06-04T08:51:57.7132636Z",
+                    "Duration": {
+                      "Seconds": 0,
+                      "Nanos": 630903600
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Pcie_0",
+                    "REKey": "PCIE_D0701",
+                    "Tips": [],
+                    "IsDiagnosticCompleted": true
+                  }
+                ],
+                "overallResults": [
+                  {
+                    "Iteration": 1,
+                    "Result": true,
+                    "ResultString": "Passed",
+                    "TotalIterations": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "testName": "Memory - Basic NonInteractive",
+            "iteration": 1,
+            "deviceResults": [
+              {
+                "deviceName": "Memory_0",
+                "subtestUpdates": [
+                  {
+                    "OverallProgress": 100,
+                    "StatusCode": "D0201",
+                    "TestName": "MarchC",
+                    "TestKey": "idiag.memory.basic.test.MarchC",
+                    "Progress": 100,
+                    "ErrorCodeDescription": "Memory - testing success",
+                    "StartTime": "2025-06-04T08:52:20.2384132Z",
+                    "Duration": {
+                      "Seconds": 85,
+                      "Nanos": 926542500
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Memory_0",
+                    "REKey": "Memory_MarchC_D0201",
+                    "Tips": [],
+                    "IsDiagnosticCompleted": true
+                  }
+                ],
+                "overallResults": [
+                  {
+                    "Iteration": 1,
+                    "Result": true,
+                    "ResultString": "Passed",
+                    "TotalIterations": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "testName": "Storage - Short DST NonInteractive",
+            "iteration": 1,
+            "deviceResults": [
+              {
+                "deviceName": "Disk_SCSI\\DISK&VEN_NVME&PROD_P0221_NVME_PHISO\\4&11E3DEED&0&030000",
+                "subtestUpdates": [
+                  {
+                    "OverallProgress": 33,
+                    "StatusCode": "D0401",
+                    "TestName": "Short DST Test",
+                    "TestKey": "idiag.storage.test.shortdst",
+                    "Progress": 100,
+                    "StartTime": "2025-06-04T08:52:16.3409911Z",
+                    "Duration": {
+                      "Seconds": 101,
+                      "Nanos": 680990300
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Disk_SCSI\\DISK&VEN_NVME&PROD_P0221_NVME_PHISO\\4&11E3DEED&0&030000",
+                    "REKey": "Storage_ShortDST_D0401",
+                    "Tips": []
+                  },
+                  {
+                    "OverallProgress": 66,
+                    "StatusCode": "D0402",
+                    "TestName": "SMART Wear level Test",
+                    "TestKey": "idiag.storage.test.smartwear",
+                    "Progress": 100,
+                    "StartTime": "2025-06-04T08:53:58.0220197Z",
+                    "Duration": {
+                      "Seconds": 0,
+                      "Nanos": 34911800
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Disk_SCSI\\DISK&VEN_NVME&PROD_P0221_NVME_PHISO\\4&11E3DEED&0&030000",
+                    "REKey": "Storage_SmartWearLevel_D0402",
+                    "Tips": []
+                  },
+                  {
+                    "OverallProgress": 100,
+                    "StatusCode": "D0403",
+                    "TestName": "WMI SMART Status Test",
+                    "TestKey": "idiag.storage.test.smartstatus",
+                    "Progress": 100,
+                    "StartTime": "2025-06-04T08:53:58.0569526Z",
+                    "Duration": {
+                      "Seconds": 0,
+                      "Nanos": 22843700
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Disk_SCSI\\DISK&VEN_NVME&PROD_P0221_NVME_PHISO\\4&11E3DEED&0&030000",
+                    "REKey": "Storage_WMISmartStatus_D0403",
+                    "Tips": [],
+                    "IsDiagnosticCompleted": true
+                  }
+                ],
+                "overallResults": [
+                  {
+                    "Iteration": 1,
+                    "Result": true,
+                    "ResultString": "Passed",
+                    "TotalIterations": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "testName": "Battery - functional NonInteractive",
+            "iteration": 1,
+            "deviceResults": [
+              {
+                "deviceName": "Battery_LeftBayBattery",
+                "subtestUpdates": [
+                  {
+                    "OverallProgress": 50,
+                    "StatusCode": "D0301",
+                    "TestName": "Percent Charge",
+                    "TestKey": "idiag.battery.test.PercentCharge",
+                    "Progress": 100,
+                    "StartTime": "2025-06-04T08:52:09.8670076Z",
+                    "Duration": {
+                      "Seconds": 0,
+                      "Nanos": 20152700
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Battery_LeftBayBattery",
+                    "REKey": "Battery_PercentCharge_D0301",
+                    "Tips": []
+                  },
+                  {
+                    "OverallProgress": 100,
+                    "StatusCode": "D0302",
+                    "TestName": "Percent Health",
+                    "TestKey": "idiag.battery.test.PercentHealth",
+                    "Progress": 100,
+                    "StartTime": "2025-06-04T08:52:09.8872984Z",
+                    "Duration": {
+                      "Seconds": 0,
+                      "Nanos": 90420200
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Battery_LeftBayBattery",
+                    "REKey": "Battery_PercentHealth_D0302",
+                    "Tips": [],
+                    "IsDiagnosticCompleted": true
+                  }
+                ],
+                "overallResults": [
+                  {
+                    "Iteration": 1,
+                    "Result": true,
+                    "ResultString": "Passed",
+                    "TotalIterations": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "testName": "Battery - functional NonInteractive",
+            "iteration": 1,
+            "deviceResults": [
+              {
+                "deviceName": "Battery_LeftBayBattery",
+                "subtestUpdates": [
+                  {
+                    "OverallProgress": 50,
+                    "StatusCode": "D0301",
+                    "TestName": "Percent Charge",
+                    "TestKey": "idiag.battery.test.PercentCharge",
+                    "Progress": 100,
+                    "StartTime": "2025-06-04T08:52:10.1307797Z",
+                    "Duration": {
+                      "Seconds": 0,
+                      "Nanos": 35501800
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Battery_LeftBayBattery",
+                    "REKey": "Battery_PercentCharge_D0301",
+                    "Tips": []
+                  },
+                  {
+                    "OverallProgress": 100,
+                    "StatusCode": "D0302",
+                    "TestName": "Percent Health",
+                    "TestKey": "idiag.battery.test.PercentHealth",
+                    "Progress": 100,
+                    "StartTime": "2025-06-04T08:52:10.1663117Z",
+                    "Duration": {
+                      "Seconds": 0,
+                      "Nanos": 74583200
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Battery_LeftBayBattery",
+                    "REKey": "Battery_PercentHealth_D0302",
+                    "Tips": [],
+                    "IsDiagnosticCompleted": true
+                  }
+                ],
+                "overallResults": [
+                  {
+                    "Iteration": 1,
+                    "Result": true,
+                    "ResultString": "Passed",
+                    "TotalIterations": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "testName": "Wired Network - functional NonInteractive",
+            "iteration": 1,
+            "deviceResults": [
+              {
+                "deviceName": "NetworkAdapter_PCI\\VEN_10EC&DEV_8168&SUBSYS_0B791028&REV_15\\01000000684CE00000",
+                "subtestUpdates": [
+                  {
+                    "OverallProgress": 100,
+                    "StatusCode": "D1301",
+                    "TestName": "Loopback Test",
+                    "TestKey": "idiag.network.wired.test.loopbacktest",
+                    "Progress": 0,
+                    "ErrorCodeDescription": "Network Diagnostic Failed: The given key 'PCI\\VEN_10EC&DEV_8168&SUBSYS_0B791028&REV_15\\01000000684CE00000' was not present in the dictionary.",
+                    "StartTime": "2025-06-04T08:52:09.8508234Z",
+                    "Result": 10,
+                    "ResultKey": "InternalError",
+                    "DeviceId": "NetworkAdapter_PCI\\VEN_10EC&DEV_8168&SUBSYS_0B791028&REV_15\\01000000684CE00000",
+                    "REKey": "Network_Wired_Loopback_D1301",
+                    "Tips": [],
+                    "IsDiagnosticCompleted": true
+                  }
+                ],
+                "overallResults": [
+                  {
+                    "Iteration": 1,
+                    "Result": false,
+                    "ResultString": "Warning",
+                    "TotalIterations": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "testName": "Fans - functional NonInteractive",
+            "iteration": 1,
+            "deviceResults": [
+              {
+                "deviceName": "Fan_CpuFan_0",
+                "subtestUpdates": [
+                  {
+                    "OverallProgress": 100,
+                    "StatusCode": "D0501",
+                    "TestName": "Fans - Functional Tests",
+                    "TestKey": "idiag.fan.test",
+                    "Progress": 100,
+                    "ErrorCodeDescription": "Fan - testing success",
+                    "StartTime": "2025-06-04T08:52:13.5226276Z",
+                    "Duration": {
+                      "Seconds": 9,
+                      "Nanos": 208672800
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "Fan_CpuFan_0",
+                    "REKey": "Fan_D0501",
+                    "Tips": [],
+                    "IsDiagnosticCompleted": true
+                  }
+                ],
+                "overallResults": [
+                  {
+                    "Iteration": 1,
+                    "Result": true,
+                    "ResultString": "Passed",
+                    "TotalIterations": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "testName": "PciStatus - functional NonInteractive",
+            "iteration": 1,
+            "deviceResults": [
+              {
+                "deviceName": "PCIExpress_0",
+                "subtestUpdates": [
+                  {
+                    "OverallProgress": 100,
+                    "StatusCode": "D0702",
+                    "TestName": "PCI Status Tests",
+                    "TestKey": "idiag.pci.status.test",
+                    "Progress": 100,
+                    "ErrorCodeDescription": "",
+                    "StartTime": "2025-06-04T08:52:12.0521362Z",
+                    "Duration": {
+                      "Seconds": 0,
+                      "Nanos": 62999300
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "PCIExpress_0",
+                    "REKey": "PCIExpress_D0702",
+                    "Tips": [],
+                    "IsDiagnosticCompleted": true
+                  }
+                ],
+                "overallResults": [
+                  {
+                    "Iteration": 1,
+                    "Result": true,
+                    "ResultString": "Passed",
+                    "TotalIterations": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "testName": "USBStatus - functional NonInteractive",
+            "iteration": 1,
+            "deviceResults": [
+              {
+                "deviceName": "UsbStatus_0",
+                "subtestUpdates": [
+                  {
+                    "OverallProgress": 100,
+                    "StatusCode": "D0605",
+                    "TestName": "USB Status Tests",
+                    "TestKey": "idiag.usb.status.test",
+                    "Progress": 100,
+                    "ErrorCodeDescription": "",
+                    "StartTime": "2025-06-04T08:52:12.120449Z",
+                    "Duration": {
+                      "Seconds": 0,
+                      "Nanos": 8801100
+                    },
+                    "Result": 0,
+                    "ResultKey": "Passed",
+                    "DeviceId": "UsbStatus_0",
+                    "REKey": "USBstatus_D0605",
+                    "Tips": [],
+                    "IsDiagnosticCompleted": true
+                  }
+                ],
+                "overallResults": [
+                  {
+                    "Iteration": 1,
+                    "Result": true,
+                    "ResultString": "Passed",
+                    "TotalIterations": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "testName": "Accelerometer - functional NonInteractive",
+            "iteration": 1,
+            "deviceResults": [
+              {
+                "deviceName": "",
+                "subtestUpdates": [
+                  {
+                    "OverallProgress": 100,
+                    "TestName": "Accelerometers - Functional Tests",
+                    "TestKey": "idiag.accelerometer.test",
+                    "Progress": 100,
+                    "ErrorCodeDescription": "DeviceNotAvailable",
+                    "StartTime": "2025-06-04T08:52:12.0745532Z",
+                    "Result": 6,
+                    "ResultKey": "NoDevice",
+                    "REKey": "NotApplicable",
+                    "Tips": [],
+                    "IsDiagnosticCompleted": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "testName": "AmbientLightSensor - functional NonInteractive",
+            "iteration": 1,
+            "deviceResults": [
+              {
+                "deviceName": "",
+                "subtestUpdates": [
+                  {
+                    "OverallProgress": 100,
+                    "TestName": "AmbientLightSensor Functional Test",
+                    "TestKey": "idiag.ambientlightsensor.test",
+                    "Progress": 100,
+                    "ErrorCodeDescription": "DeviceNotAvailable",
+                    "StartTime": "2025-06-04T08:52:12.0934198Z",
+                    "Result": 6,
+                    "ResultKey": "NoDevice",
+                    "REKey": "NotApplicable",
+                    "Tips": [],
+                    "IsDiagnosticCompleted": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "overallScriptResult": {
+      "Result": false,
+      "ResultString": "Warning",
+      "TotalIterations": 1
+    }
+  }
+}
